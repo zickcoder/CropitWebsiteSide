@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none">
+  <rect width="300" height="300" rx="16" fill="#1C1C20"/>
+  <rect x="12" y="12" width="276" height="276" rx="12" stroke="#27272A" stroke-width="2" stroke-dasharray="6 6"/>
+  
+  <!-- Outer Corner Targets -->
+  <path d="M40 70 V40 H70" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 40 H260 V70" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 230 V260 H70" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 260 H260 V230" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- QR Code Mock Pattern -->
+  <rect x="65" y="65" width="45" height="45" rx="4" fill="#FAFAFA"/>
+  <rect x="73" y="73" width="29" height="29" rx="2" fill="#1C1C20"/>
+  <rect x="79" y="79" width="17" height="17" rx="1" fill="#FAFAFA"/>
+
+  <rect x="190" y="65" width="45" height="45" rx="4" fill="#FAFAFA"/>
+  <rect x="198" y="73" width="29" height="29" rx="2" fill="#1C1C20"/>
+  <rect x="204" y="79" width="17" height="17" rx="1" fill="#FAFAFA"/>
+
+  <rect x="65" y="190" width="45" height="45" rx="4" fill="#FAFAFA"/>
+  <rect x="73" y="198" width="29" height="29" rx="2" fill="#1C1C20"/>
+  <rect x="79" y="204" width="17" height="17" rx="1" fill="#FAFAFA"/>
+
+  <!-- Matrix Dots -->
+  <rect x="125" y="70" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="145" y="70" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="165" y="70" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  
+  <rect x="125" y="90" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="145" y="90" width="12" height="12" rx="2" fill="#F59E0B"/>
+  <rect x="165" y="90" width="12" height="12" rx="2" fill="#FAFAFA"/>
+
+  <rect x="65" y="125" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="85" y="125" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="105" y="125" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="125" y="125" width="12" height="12" rx="2" fill="#F59E0B"/>
+  <rect x="145" y="125" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="165" y="125" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="185" y="125" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="205" y="125" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="225" y="125" width="12" height="12" rx="2" fill="#FAFAFA"/>
+
+  <rect x="65" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="85" y="145" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="105" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="125" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="145" y="145" width="12" height="12" rx="2" fill="#F59E0B"/>
+  <rect x="165" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="185" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="205" y="145" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="225" y="145" width="12" height="12" rx="2" fill="#A1A1AA"/>
+
+  <rect x="65" y="165" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="85" y="165" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="125" y="165" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="145" y="165" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="165" y="165" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="205" y="165" width="12" height="12" rx="2" fill="#FAFAFA"/>
+
+  <rect x="125" y="190" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="145" y="190" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="165" y="190" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="185" y="190" width="12" height="12" rx="2" fill="#A1A1AA"/>
+  <rect x="205" y="190" width="12" height="12" rx="2" fill="#FAFAFA"/>
+
+  <rect x="125" y="210" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="145" y="210" width="12" height="12" rx="2" fill="#F59E0B"/>
+  <rect x="165" y="210" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="185" y="210" width="12" height="12" rx="2" fill="#FAFAFA"/>
+  <rect x="205" y="210" width="12" height="12" rx="2" fill="#A1A1AA"/>
+
+  <!-- Center Badge -->
+  <rect x="120" y="120" width="60" height="60" rx="8" fill="#141416" stroke="#27272A" stroke-width="2"/>
+  <text x="150" y="148" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#F59E0B">GCash</text>
+  <text x="150" y="164" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" font-weight="600" fill="#A1A1AA">QR Ph</text>
+</svg>
