@@ -64,7 +64,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-full max-w-[560px] mx-auto flex flex-col min-h-[100dvh]">
+    <main className="w-full max-w-[35rem] mx-auto flex flex-col min-h-[100dvh]">
 
       {/* ── Hero & Header ───────────────────────────────────── */}
       <Header onOpenSuggest={openSuggest} />

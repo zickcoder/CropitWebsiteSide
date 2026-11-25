@@ -35,7 +35,7 @@ export function Header({ onOpenSuggest }: HeaderProps) {
       </div>
 
       {/* One-line clean description */}
-      <p className="text-sm text-[#A1A1AA] leading-relaxed max-w-[460px] mx-auto mb-5 font-normal">
+      <p className="text-sm text-[#A1A1AA] leading-relaxed max-w-[28.75rem] mx-auto mb-5 font-normal">
         Crop any area of your browser tab and record it straight into a lightweight GIF—100% locally with zero bloat.
       </p>
 

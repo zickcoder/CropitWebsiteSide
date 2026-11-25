@@ -10,7 +10,7 @@ export function SponsorSection() {
         <div className="flex flex-col-reverse sm:flex-row sm:items-start justify-between gap-2.5 sm:gap-3 mb-3">
           <div>
             <h3 className="text-sm font-semibold text-[#FAFAFA] mb-0.5">Sponsor Me / Put Ads</h3>
-            <p className="text-xs text-[#71717A] leading-relaxed max-w-[320px]">
+            <p className="text-xs text-[#71717A] leading-relaxed max-w-[20rem]">
               Ad &amp; sponsor slots for cropitGIF are currently being built. Check back soon!
             </p>
           </div>
