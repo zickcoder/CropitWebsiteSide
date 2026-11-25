@@ -7,7 +7,7 @@ export function SponsorSection() {
     <div className="w-full px-4 mb-5">
       <div className="bg-[#1C1C20] border border-[#27272A] rounded-xl p-5">
         {/* Header row */}
-        <div className="flex items-start justify-between gap-3 mb-3">
+        <div className="flex flex-col-reverse sm:flex-row sm:items-start justify-between gap-2.5 sm:gap-3 mb-3">
           <div>
             <h3 className="text-sm font-semibold text-[#FAFAFA] mb-0.5">Sponsor Me / Put Ads</h3>
             <p className="text-xs text-[#71717A] leading-relaxed max-w-[320px]">
@@ -15,7 +15,7 @@ export function SponsorSection() {
             </p>
           </div>
           {/* Under Construction badge */}
-          <div className="flex-shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#141416] border border-[#27272A]">
+          <div className="self-start flex-shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#141416] border border-[#27272A]">
             <Construction className="w-3.5 h-3.5 text-[#F59E0B]" />
             <span className="text-[11px] font-semibold text-[#F59E0B] whitespace-nowrap">
               Under Construction

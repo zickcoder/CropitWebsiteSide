@@ -64,7 +64,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-full max-w-[560px] mx-auto flex flex-col min-h-screen">
+    <main className="w-full max-w-[560px] mx-auto flex flex-col min-h-[100dvh]">
 
       {/* ── Hero & Header ───────────────────────────────────── */}
       <Header onOpenSuggest={openSuggest} />
@@ -74,14 +74,14 @@ export default function Home() {
 
       {/* ── Coffee Donation Card ─────────────────────────────── */}
       <div className="w-full px-4 mb-5">
-        <div className="bg-[#1C1C20] border border-[#27272A] rounded-xl p-4 flex items-center justify-between gap-4">
+        <div className="bg-[#1C1C20] border border-[#27272A] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
           <div>
             <p className="text-xs font-semibold text-[#FAFAFA] mb-0.5">Like the tool?</p>
             <p className="text-xs text-[#71717A] leading-relaxed">Support the developer with a coffee ☕</p>
           </div>
           <button
             onClick={openCoffee}
-            className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-[#1C1C20] text-[#F59E0B] border border-[#F59E0B]/30 hover:bg-[#F59E0B]/10 hover:border-[#F59E0B]/60 active:scale-[0.98] transition-all"
+            className="w-full sm:w-auto flex-shrink-0 inline-flex items-center justify-center gap-2 px-4 py-2.5 sm:py-2 rounded-full text-xs font-semibold bg-[#1C1C20] text-[#F59E0B] border border-[#F59E0B]/30 hover:bg-[#F59E0B]/10 hover:border-[#F59E0B]/60 active:scale-[0.98] transition-all"
           >
             <Coffee className="w-3.5 h-3.5" />
             Click to see QR code
@@ -91,14 +91,14 @@ export default function Home() {
 
       {/* ── Suggest a Feature Card ───────────────────────────── */}
       <div className="w-full px-4 mb-5">
-        <div className="bg-[#1C1C20] border border-[#27272A] rounded-xl p-4 flex items-center justify-between gap-4">
+        <div className="bg-[#1C1C20] border border-[#27272A] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
           <div>
             <p className="text-xs font-semibold text-[#FAFAFA] mb-0.5">Got an idea?</p>
             <p className="text-xs text-[#71717A] leading-relaxed">Feature requests are always welcome!</p>
           </div>
           <button
             onClick={openSuggest}
-            className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-[#1C1C20] text-[#FAFAFA] border border-[#27272A] hover:bg-[#222227] hover:border-[#3F3F46] active:scale-[0.98] transition-all"
+            className="w-full sm:w-auto flex-shrink-0 inline-flex items-center justify-center gap-2 px-4 py-2.5 sm:py-2 rounded-full text-xs font-semibold bg-[#1C1C20] text-[#FAFAFA] border border-[#27272A] hover:bg-[#222227] hover:border-[#3F3F46] active:scale-[0.98] transition-all"
           >
             💡 Suggest a Feature
           </button>

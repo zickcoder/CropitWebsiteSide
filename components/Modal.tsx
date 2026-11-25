@@ -54,21 +54,21 @@ export function Modal({
       aria-modal="true"
     >
       <div
-        className={`w-full ${widthClass} bg-[#1C1C20] border border-[#27272A] rounded-2xl shadow-2xl animate-scale-up overflow-hidden`}
+        className={`w-full ${widthClass} max-h-[90dvh] flex flex-col bg-[#1C1C20] border border-[#27272A] rounded-2xl shadow-2xl animate-scale-up overflow-hidden`}
       >
         {title && (
-          <div className="flex items-center justify-between px-5 pt-5 pb-3 border-b border-[#27272A]">
+          <div className="flex items-center justify-between px-4 sm:px-5 pt-4 sm:pt-5 pb-3 border-b border-[#27272A] flex-shrink-0">
             <span className="text-sm font-semibold text-[#FAFAFA]">{title}</span>
             <button
               onClick={onClose}
-              className="w-7 h-7 rounded-lg flex items-center justify-center text-[#71717A] hover:text-[#FAFAFA] hover:bg-[#27272A] transition-colors"
+              className="w-8 h-8 sm:w-7 sm:h-7 rounded-lg flex items-center justify-center text-[#71717A] hover:text-[#FAFAFA] hover:bg-[#27272A] transition-colors"
               aria-label="Close"
             >
               <X className="w-4 h-4" />
             </button>
           </div>
         )}
-        <div className="p-5">{children}</div>
+        <div className="p-4 sm:p-5 overflow-y-auto">{children}</div>
       </div>
     </div>
   );
